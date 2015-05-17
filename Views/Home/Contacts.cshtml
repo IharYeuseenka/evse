@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Contacts";
+}
+
+@section Sidebar
+{
+    <div id="sidebar" class="float_l">
+        	<div class="sidebar_box"><span class="bottom"></span>
+            	<h3>Жанры</h3>   
+                <div class="content"> 
+                	<ul class="sidebar_list">
+                         @{
+                            int i = 0;
+                        }
+                        @foreach(MyStore.Models.Categorie categorie in ViewBag.Categories)
+                        {
+                            if(i==0)
+                            {
+                                <li class="first"><a href="~/Home/Catalog/@categorie.CategorieId">@categorie.Name</a></li>
+                                i++;
+                            }
+                            else
+                            {
+                                <li><a href="~/Home/Catalog/@categorie.CategorieId">@categorie.Name</a></li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+}
+
+<div id="content" class="float_r">
+    <h1>Контакты</h1>
+    <h3>Телефоны информационной службы:</h3>
+    <ul class="templatemo_list">
+        <li>(017) 394-96-96</li>
+        <li>8 029 8543727 (МТС)</li>
+        <li>8 029 6313727 (VEL)</li>
+        <li>8 025 6032015 (LIFE)</li>
+    </ul>
+    <div class="cleaner h20"></div>
+    <h3>E-mail: bookwa@mail.ru</h3>
+    <div class="cleaner h20"></div>
+    <h3>Почтовый адрес:</h3>
+    <p>220050 г. Минск, Главпочтамт, а/я 520, «Книжный магазин BOOK'ва».</p>
+    <div class="cleaner h20"></div>
+    <h3>Юридический адрес:</h3>
+    <p>Иностранное частное торгово-производственное унитарное предприятие «Книжный магазин BOOK'ва», Республика Беларусь, 223060, Минская обл., Минский р-н, Новодворский с/с, д. 40-7, офис № 7, район д. Большое Стиклево, УНП 191120971</p>
+</div> 

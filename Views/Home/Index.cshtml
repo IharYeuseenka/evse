@@ -1,0 +1,143 @@
+﻿@{
+    ViewBag.Title = "Index";
+    
+}
+@section Slider
+{
+    <div id="templatemo_middle" class="carousel">
+    	<div class="panel">
+				<div class="details_wrapper">
+					<div class="details">
+					
+						<div class="detail">
+                            <p>Сеть книжных магазинов «BOOK'ва» предлагает книги, учебники, диски, развивающие игры для детей и многое другое. 
+        Первый книжный магазин «BOOK'ва» был открыт в 2007 году в Харькове, позже были открыты магазины в Полтаве, Кременчуге, 
+        Одессе и Павлограде. В 2009 году во всемирную сеть было запущено он-лайн представительство книжной сети «BOOK'ва» - 
+        bookwa.com</p>
+						</div><!-- /detail -->
+						
+						<div class="detail">
+							<p>Покупать товары через интернет очень удобно, так как Вы можете ознакомиться с представленными книгами в интернет-магазине, 
+        а потом заказать или купить книги, которые вам понравились в любом из магазинов сети. 
+        На сегодняшний день книжный магазин предоставляет покупателям доставку книг почтой, перевозчиком «Новая почта» и 
+        самовывоз.</p>
+
+						</div><!-- /detail -->
+						
+						<div class="detail">
+							<p>Ассортимент книжных магазинов «BOOK'ва» формируется опытными товароведами, которые заказывают популярные и редкие книги, 
+        умело подбирают книги в рубрики новинки и распродажа.</p>
+
+						</div><!-- /detail -->
+						
+					</div><!-- /details -->
+					
+				</div><!-- /details_wrapper -->
+				
+				<div class="paging">
+					<div id="numbers"></div>
+					<a href="javascript:void(0);" class="previous" title="Previous" >Previous</a>
+					<a href="javascript:void(0);" class="next" title="Next">Next</a>
+				</div><!-- /paging -->
+				
+				<a href="javascript:void(0);" class="play" title="Turn on autoplay">Play</a>
+				<a href="javascript:void(0);" class="pause" title="Turn off autoplay">Pause</a>
+				
+			</div><!-- /panel -->
+	
+			<div class="backgrounds">
+				
+				<div class="item item_1">
+					<img src="@Url.Content("~/images/slider/01.jpg")" alt="Slider 01" />
+				</div><!-- /item -->
+				
+				<div class="item item_2">
+					<img src="@Url.Content("~/images/slider/02.jpg")" alt="Slider 02" />
+				</div><!-- /item -->
+				
+				<div class="item item_3">
+					<img src="@Url.Content("~/images/slider/03.jpg")" alt="Slider 03" />
+				</div><!-- /item -->
+			</div><!-- /backgrounds -->
+    </div>
+}
+@section Sidebar
+{
+    <div id="sidebar" class="float_l">
+        	<div class="sidebar_box"><span class="bottom"></span>
+            	<h3>Жанры</h3>   
+                <div class="content"> 
+                	<ul class="sidebar_list">
+                        @{
+                            int i = 0;
+                        }
+                        @foreach(MyStore.Models.Categorie categorie in ViewBag.Categories)
+                        {
+                            if(i==0)
+                            {
+                                <li class="first">@Html.ActionLink(categorie.Name,"Catalog", "Home", new {id=categorie.CategorieId},null)</li>
+                                i++;
+                            }
+                            else
+                            {
+                                <li><a href="~/Home/Catalog/@categorie.CategorieId">@categorie.Name</a></li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+}
+<div id="content" class="float_r">
+        	<h1>Новинки</h1>
+    @{
+        int a = 1;
+    }
+    @foreach (MyStore.Models.Book book in ViewBag.Books)
+    { 
+        if(a%3!=0)
+        {
+        <div class="product_box">
+            	<a href="@Url.Content("~/Home/Productdetail/"+book.BookId)"><img src="@Url.Content("~/images/product/"+book.ImagePath)" alt="Image 01" /></a>
+                <h3>@book.Name</h3>
+                <p class="product_price">@book.Price руб</p>
+                @if (Request.IsAuthenticated)
+                {
+                    <form name="myfrm" method="post" action="@Url.Content("~/Home/ShoppingCart")"> 
+                        <input type="hidden" name="BookId" value="@book.BookId"/>
+                        <input type="submit" class="add_to_cart_submit" value="Добавить в корзину" />
+                    </form>
+                 }
+            else
+            {
+                    <a href="#" class="add_to_card dialog-link">Добавить в корзину</a>
+                    
+                }
+                <a href="@Url.Content("~/Home/Productdetail/"+book.BookId)" class="detail">Подробнее...</a>
+            </div> 
+            a++;
+        }
+        
+        else
+        {
+            <div class="product_box no_margin_right">
+            	<a href="@Url.Content("~/Home/Productdetail/"+book.BookId)"><img src="@Url.Content("~/images/product/"+book.ImagePath)" alt="Image 01" /></a>
+                <h3>@book.Name</h3>
+                <p class="product_price">@book.Price руб</p>
+                @if (Request.IsAuthenticated)
+                {
+                   <form name="myfrm" method="post" action="@Url.Content("~/Home/ShoppingCart")"> 
+                        <input type="hidden" name="BookId" value="@book.BookId"/>
+                        <input type="submit" class="add_to_cart_submit" value="Добавить в корзину" />
+                    </form>
+                }
+            else
+            {
+                    <a href="#" class="add_to_card dialog-link">Добавить в корзину</a>
+                }
+                <a href="@Url.Content("~/Home/Productdetail/"+book.BookId)" class="detail">Подробнее...</a>
+            </div> 
+            a++;
+        }
+    }
+</div> 

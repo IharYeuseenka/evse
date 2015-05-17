@@ -1,0 +1,64 @@
+﻿@model MyStore.Models.RegisterModel
+@{
+    ViewBag.Title = "Регистрация";
+}
+
+@section Sidebar
+{
+    <div id="sidebar" class="float_l">
+        	<div class="sidebar_box"><span class="bottom"></span>
+            	<h3>Жанры</h3>   
+                <div class="content"> 
+                	<ul class="sidebar_list">
+                         @{
+                            int i = 0;
+                        }
+                        @foreach(MyStore.Models.Categorie categorie in ViewBag.Categories)
+                        {
+                            if(i==0)
+                            {
+                                <li class="first"><a href="~/Home/Catalog/@categorie.CategorieId">@categorie.Name</a></li>
+                                i++;
+                            }
+                            else
+                            {
+                                <li><a href="~/Home/Catalog/@categorie.CategorieId">@categorie.Name</a></li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+}
+<div id="content" class="float_r">
+    <h1>@ViewBag.Title</h1>
+    <div id="contact_form">
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset>
+        <legend>Registration Form</legend>
+        <ol>
+             <div class="cleaner h10"></div>
+            <li>
+                @Html.LabelFor(m => m.UserName)
+                @Html.TextBoxFor(m => m.UserName)
+            </li>
+             <div class="cleaner h10"></div>
+            <li>
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password)
+            </li>
+             <div class="cleaner h10"></div>
+            <li>
+                @Html.LabelFor(m => m.ConfirmPassword)
+                @Html.PasswordFor(m => m.ConfirmPassword)
+            </li>
+             <div class="cleaner h10"></div>
+        </ol>
+        <input type="submit" value="Зарегистрироваться" />
+    </fieldset>
+}
+    </div>
+</div>

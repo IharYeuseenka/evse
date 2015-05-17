@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Productdetail";
+}
+
+@section Sidebar
+{
+    <div id="sidebar" class="float_l">
+        	<div class="sidebar_box"><span class="bottom"></span>
+            	<h3>Жанры</h3>   
+                <div class="content"> 
+                	<ul class="sidebar_list">
+                         @{
+                            int i = 0;
+                        }
+                        @foreach(MyStore.Models.Categorie categorie in ViewBag.Categories)
+                        {
+                            if(i==0)
+                            {
+                                <li class="first"><a href="~/Home/Catalog/@categorie.CategorieId">@categorie.Name</a></li>
+                                i++;
+                            }
+                            else
+                            {
+                                <li><a href="~/Home/Catalog/@categorie.CategorieId">@categorie.Name</a></li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+}
+<div id="content" class="float_r">
+        	
+            <h1>@ViewBag.Book.Name</h1>
+            <div class="content_half float_l">
+        	    <a rel="lightbox[portfolio]" href="@Url.Content("~/images/product/large/"+ViewBag.Book.ImagePath)"><img style="display: block; margin: 0px auto;" src="@Url.Content("~/images/product/big/"+ViewBag.Book.ImagePath)" alt="Image 01"/></a>
+            </div>
+            <div class="content_half float_r">
+				<table>
+                    <tr>
+                        <td height="30" width="100">Автор:</td>
+                        <td>@ViewBag.Book.Author</td>
+                    </tr>
+                    <tr>
+                        <td height="30">Жанр:</td>
+                        <td>@ViewBag.Categories.Find(ViewBag.Book.CategorieId).Name</td>
+                    </tr>
+                    <tr>
+                        <td height="30">Цена:</td>
+                        <td>@ViewBag.Book.Price</td>
+                    </tr>
+                  </table>
+                <div class="cleaner h20"></div>
+                @if (Request.IsAuthenticated)
+                {
+                    <form name="myfrm" method="post" action="@Url.Content("~/Home/ShoppingCart")"> 
+                        <input type="hidden" name="BookId" value="@ViewBag.BookId"/>
+                        <input type="submit" class="add_to_cart_submit" value="Добавить в корзину" />
+                    </form>
+                }
+            else
+            {
+                    <a href="#" class="add_to_card dialog-link">Добавить в корзину</a>
+                }
+			</div>
+            <div class="cleaner h30"></div>
+            
+            <h5>Описание</h5>
+            <p>@ViewBag.Book.Description</p>	
+            
+            <div class="cleaner h50"></div>
+        </div>

@@ -1,0 +1,71 @@
+﻿@using MyStore.Models
+@{
+    ViewBag.Title = "ShoppingCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+@section Sidebar
+{
+    <div id="sidebar" class="float_l">
+        	<div class="sidebar_box"><span class="bottom"></span>
+            	<h3>Жанры</h3>   
+                <div class="content"> 
+                	<ul class="sidebar_list">
+                        @{
+                            int i = 0;
+                        }
+                        @foreach(MyStore.Models.Categorie categorie in ViewBag.Categories)
+                        {
+                            if(i==0)
+                            {
+                                <li class="first">@Html.ActionLink(categorie.Name,"Catalog", "Home", new {id=categorie.CategorieId},null)</li>
+                                i++;
+                            }
+                            else
+                            {
+                                <li><a href="~/Home/Catalog/@categorie.CategorieId">@categorie.Name</a></li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+}
+
+<div id="content" class="float_r">
+    <h1>Корзина</h1>
+    @if (ViewBag.Count!=0)
+        {
+    <table width="680px" cellspacing="0" cellpadding="5">
+                <tr bgcolor="#ddd">
+                    <th width="220" align="left">Изображение </th> 
+                    <th width="180" align="left">Название </th> 
+                    <th width="100" align="center">Количество </th> 
+                    <th width="60" align="right">Цена </th> 
+                    <th width="60" align="right">Итого </th> 
+                    <th width="90"> </th>
+                </tr>
+        
+        @foreach(MyStore.Models.Purchase purchase in ViewBag.Purchases)
+        {
+            <tr>
+                <td><img src="@Url.Content("~/images/product/"+ViewBag.Books.Find(purchase.BookId).ImagePath)" alt="Image 01" /></td> 
+                <td>@ViewBag.Books.Find(purchase.BookId).Name</td> 
+                <td align="center">@purchase.Count</td>
+                <td align="right">@ViewBag.Books.Find(purchase.BookId).Price </td> 
+                <td align="right"></td>
+                <td align="center"> <a href="@Url.Content("~/Home/Delete/"+purchase.PurchaseId)">Remove</a> </td>
+			</tr>
+        }
+			</table>
+
+            <div style="float:right; width: 215px; margin-top: 20px;">
+			    <input type="submit" class="add_to_cart add_to_cart_submit" value="Оформить заказ" />                    	
+            </div>
+        }
+        else
+        {
+            <h2>Ваша корзина пуста</h2>
+        }
+</div>

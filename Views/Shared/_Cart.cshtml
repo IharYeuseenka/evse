@@ -1,0 +1,6 @@
+﻿@if (Request.IsAuthenticated) {
+    <text>
+        <a href="@Url.Content("~/Home/ShoppingCart/"+@WebSecurity.CurrentUserId)"><img src="@Url.Content("~/images/cart.png")" alt="Image 01" /></a>  
+        <a href="@Url.Content("~/Home/ShoppingCart/"+@WebSecurity.CurrentUserId)">Показать корзину</a>
+    </text>
+}

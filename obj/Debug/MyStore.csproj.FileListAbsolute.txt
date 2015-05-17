@@ -1,0 +1,143 @@
+D:\Work\projects\MVC\MyStore\MyStore\bin\MyStore.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\MyStore.pdb
+D:\Work\projects\MVC\MyStore\MyStore\bin\Antlr3.Runtime.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.AspNet.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.Core.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.OAuth.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.OpenId.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\EntityFramework.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\Microsoft.Web.Infrastructure.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\Newtonsoft.Json.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.Helpers.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.Mvc.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.Optimization.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.Razor.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.WebPages.Deployment.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.WebPages.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.WebPages.Razor.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\WebGrease.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\WebMatrix.Data.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\WebMatrix.WebData.dll
+D:\Work\projects\MVC\MyStore\MyStore\bin\EntityFramework.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\Newtonsoft.Json.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.Helpers.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.Mvc.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.Razor.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.WebPages.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.WebPages.Deployment.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\System.Web.WebPages.Razor.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\WebMatrix.Data.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\WebMatrix.WebData.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.AspNet.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.Core.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.OAuth.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.OpenId.xml
+D:\Work\projects\MVC\MyStore\MyStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Work\projects\MVC\MyStore\MyStore\obj\Debug\MyStore.csprojResolveAssemblyReference.cache
+D:\Work\projects\MVC\MyStore\MyStore\obj\Debug\MyStore.dll
+D:\Work\projects\MVC\MyStore\MyStore\obj\Debug\MyStore.pdb
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\MyStore.dll.config
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\MyStore.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\MyStore.pdb
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\Antlr3.Runtime.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.AspNet.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.Core.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OAuth.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OpenId.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\EntityFramework.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\Microsoft.Web.Infrastructure.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\Newtonsoft.Json.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Net.Http.Formatting.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Helpers.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Http.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Http.WebHost.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Mvc.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Optimization.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Razor.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.Deployment.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.Razor.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\WebGrease.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\WebMatrix.Data.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\WebMatrix.WebData.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\EntityFramework.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\Newtonsoft.Json.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Net.Http.Formatting.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Helpers.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Http.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Http.WebHost.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Mvc.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Razor.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.Deployment.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.Razor.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\WebMatrix.Data.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\WebMatrix.WebData.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.AspNet.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.Core.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OAuth.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OpenId.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\obj\Debug\MyStore.csprojResolveAssemblyReference.cache
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\obj\Debug\MyStore.dll
+D:\mein\Seti EVM i Telekomunikazii\Kursovaja rabota\2014\Микалуцкий Курсовой проект\MyStore\obj\Debug\MyStore.pdb
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\MyStore.dll.config
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\MyStore.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\MyStore.pdb
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\Antlr3.Runtime.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.AspNet.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.Core.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OAuth.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OpenId.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\EntityFramework.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\Microsoft.Web.Infrastructure.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\Microsoft.Web.WebPages.OAuth.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\Newtonsoft.Json.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Net.Http.Formatting.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Helpers.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Http.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Http.WebHost.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Mvc.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Optimization.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Razor.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.Deployment.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.Razor.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\WebGrease.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\WebMatrix.Data.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\WebMatrix.WebData.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\EntityFramework.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\Newtonsoft.Json.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Net.Http.Formatting.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Helpers.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Http.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Http.WebHost.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Mvc.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.Razor.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.Deployment.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\System.Web.WebPages.Razor.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\WebMatrix.Data.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\Microsoft.Web.WebPages.OAuth.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\WebMatrix.WebData.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.AspNet.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.Core.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OAuth.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OpenId.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\obj\Debug\MyStore.dll
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\obj\Debug\MyStore.pdb
+d:\myaspnet\nach Deutschland\Микалуцкий Курсовой проект\MyStore\obj\Debug\MyStore.csprojResolveAssemblyReference.cache
